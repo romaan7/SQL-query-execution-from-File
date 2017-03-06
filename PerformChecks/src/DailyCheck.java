@@ -97,7 +97,7 @@ try{
 		if(attachment!=null){attachmentFiles=attachment.split(",");}
 		
 	    from = params.from;
-	    if(from==null){from = "mwm.application.support@sse.com";}
+	    if(from==null){from = "default@org.com";}
 	   
 	    
 } catch (ParameterException ex) {
@@ -201,7 +201,7 @@ DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
 				
 				ArrayList<String> listOfResultsetValues = new ArrayList<String>();
 				
-				String MUM_Invocation_command="se_send_alert -severity WARNING -group \"MWMPROD - WARNING TEST AUTOMATED ALERT: DATE=$DATE\" -slot 1 \"TEST AUTOMATED ALERT -MWMPROD\"";
+				String MUM_Invocation_command="command to raise ";
 				
 				if(checkIncident.contains("Y"))
 				{
@@ -221,7 +221,7 @@ DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
 						
 						//Below code invokes the command for raising an ITSC incident.
 						if(!listOfResultsetValues.isEmpty()||listOfResultsetValues.size()!=0){
-							String ITSCqueueName=checkIncidentElement.getAttribute("ITSCqueueName");
+							String ITSCqueueName=checkIncidentElement.getAttribute("S");
 							//MUM_Invocation_command="se_send_alert -severity WARNING -group \" "+ ITSCqueueName +" - WARNING TEST AUTOMATED ALERT: DATE=$DATE\" -slot 1 \"" +statment+ "\"";
 							MUM_Invocation_command="java -version";
 							String op=executeCommand(MUM_Invocation_command);
