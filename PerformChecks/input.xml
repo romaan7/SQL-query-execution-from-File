@@ -1,5 +1,5 @@
 <xml version="1.0" encoding="UTF-8"?>
-<dailyCheck subject="MTP AM Daily Check Summary Report for " title="MTP AM Daily Check Summary Report">
+<dailyCheck subject="Daily Check Summary Report for " title="Daily Check Summary Report">
   <row>
     <serialNumber>1</serialNumber>
     <entity>Batch Check</entity>
