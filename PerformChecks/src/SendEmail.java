@@ -6,8 +6,8 @@ import javax.activation.*;
 public class SendEmail  
 {  
  public static void main(String [] args){  
-      String to = "roman.shaikh@sse.com";//change accordingly  
-      String from = "mwm.application.support@sse.com";//change accordingly  
+      String to = "ind@org.com";//change accordingly  
+      String from = "ind@org.com";//change accordingly  
       String host = "mailhost";//or IP address  
   
      //Get the session object  
