@@ -1,10 +1,3 @@
-/* Author: RS26812
- * Initials: RS
- * Version: 3.00
- * Team: SSE BAU/ MWM application support.
- * Last update Date: 01/03/2017
- * */
-
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
