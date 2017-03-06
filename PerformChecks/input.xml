@@ -1,0 +1,19 @@
+<xml version="1.0" encoding="UTF-8"?>
+<dailyCheck subject="MTP AM Daily Check Summary Report for " title="MTP AM Daily Check Summary Report">
+  <row>
+    <serialNumber>1</serialNumber>
+    <entity>Batch Check</entity>
+    <check>Not Ended Batch Job count</check>
+    <description>Count of Batch Job that has not Ended</description>
+   <QUERY>SELECT 1 FROM DUAL</QUERY>
+  </row>
+
+<highlites>
+<index>10</index>
+<statments>&lt;/ul>&lt;b>Actions on Team:&lt;/b>&lt;ul></statments>
+<checkIncident>N</checkIncident>
+<query>
+select 1 from dual
+</query>
+</highlites>
+</dailyCheck>
